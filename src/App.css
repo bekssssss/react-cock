@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
 .App {
   text-align: center;
 }
@@ -25,7 +32,7 @@
 }
 
 .App-link {
-  color: #61dafb;
+  /*color: #61dafb;*/
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +42,7 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.mb-4 {
 }
